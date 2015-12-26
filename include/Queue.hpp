@@ -1,7 +1,7 @@
 /*
     The Last: Too Fast
     ED - 2015/1
-    UFSCar - São Carlos
+    UFSCar - SÃ£o Carlos
 */
 #ifndef QUEUE_H
 #define QUEUE_H
@@ -33,7 +33,7 @@ namespace tltf {
 
 template <class T>
 tltf::Queue<T>::Queue () {
-    _header = new Node(); //Cria primeiro nó
+    _header = new Node(); //Cria primeiro nÃ³
     _header->right = _header;
     _last = _header;
     _header->item = T();

@@ -1,7 +1,7 @@
 /*
     The Last: Too Fast
     ED - 2015/1
-    UFSCar - São Carlos
+    UFSCar - SÃ£o Carlos
 */
 #include "Piece.h"
 

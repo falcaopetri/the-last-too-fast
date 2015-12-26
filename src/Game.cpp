@@ -1,17 +1,17 @@
 /*
     The Last: Too Fast
     ED - 2015/1
-    UFSCar - São Carlos
+    UFSCar - SÃ£o Carlos
 */
 #include "Game.h"
 
 Game::Game()
 { }
 /*
-	Gera as Peças do jogo atual semi-aleatoriamente
-	O número de peças é dado por DIFICULDADE * 20 + 30
+	Gera as PeÃ§as do jogo atual semi-aleatoriamente
+	O nÃºmero de peÃ§as Ã© dado por DIFICULDADE * 20 + 30
 
-	A ideia é ter 55% chance da peça atual ser diferente da anterior
+	A ideia Ã© ter 55% chance da peÃ§a atual ser diferente da anterior
 	(if(prob > 1):80% + else:100%*3/4)
 */
 void Game::populateQueue()
@@ -102,7 +102,7 @@ bool Game::finishGame()
 	if (hasFinished())
     {
         // TODO
-        // Adicionar função para manter um Score
+        // Adicionar funÃ§Ã£o para manter um Score
 		// saveScore();
 	}
 

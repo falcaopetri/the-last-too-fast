@@ -1,7 +1,7 @@
 /*
     The Last: Too Fast
     ED - 2015/1
-    UFSCar - São Carlos
+    UFSCar - SÃ£o Carlos
 */
 #ifndef SCORE_H
 #define SCORE_H
@@ -13,7 +13,7 @@ namespace tltf {
 	private:
 	    /*
             TODO
-            Requisitar o Nome do Jogador para adicionar a função de Score
+            Requisitar o Nome do Jogador para adicionar a funÃ§Ã£o de Score
 	    */
 		std::string _playerName;
 		unsigned _timing;

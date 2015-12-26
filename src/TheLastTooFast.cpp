@@ -1,12 +1,12 @@
 /*
     The Last: Too Fast
     ED - 2015/1
-    UFSCar - S�o Carlos
+    UFSCar - São Carlos
 */
 #include "GUI.h"
 
 /*
-    Aborda a inicializa��o do Jogo
+    Aborda a inicialização do Jogo
     Chamada para ocorra erro em algum componente ou imagem carregada por meio do Allegro
     Emite uma mensagem de acordo com o componente que falhou
 */
@@ -57,7 +57,7 @@ void loadImage (int num, int xPos, int yPos)
     }
 }
 /*
-    Muda o path-working-directory para o local do execut�vel,
+    Muda o path-working-directory para o local do executável,
     permitindo o uso de relative-paths para acessar os arquivos do jogo
 
     Source: https://www.allegro.cc/forums/thread/614268
@@ -634,12 +634,12 @@ void interfaceLoop()
 
 }
 /*
-    Destr�i todos os componentes do Allegro
-    Deve-se adicionar � esse m�todos qualquer componente do Allegro
-    que necessite de uma desreferencia��o apropriada
+    Destrói todos os componentes do Allegro
+    Deve-se adicionar à esse métodos qualquer componente do Allegro
+    que necessite de uma desreferenciação apropriada
 
-    Essa fun��o � executada ao final do jogo ou caso a inicializa��o
-    do Allegro falhe logo no in�cio da aplica��o
+    Essa função é executada ao final do jogo ou caso a inicialização
+    do Allegro falhe logo no início da aplicação
 */
 void shutdown()
 {
@@ -656,10 +656,10 @@ void shutdown()
     systemImages.clear();
 }
 /*
-    A vida de um jogo utilizando o Allegro � definida por:
-    1. Inicializa��o dos componentes do Allegro
+    A vida de um jogo utilizando o Allegro é definida por:
+    1. Inicialização dos componentes do Allegro
     2. Loop de jogo
-    3. Remo��o de todos os componentes criados
+    3. Remoção de todos os componentes criados
 */
 int main(int argc, char **argv)
 {

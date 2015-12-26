@@ -1,7 +1,7 @@
 /*
     The Last: Too Fast
     ED - 2015/1
-    UFSCar - S„o Carlos
+    UFSCar - S√£o Carlos
 */
 #ifndef PIECE_H
 #define PIECE_H
@@ -10,7 +10,7 @@
 
 namespace tltf {
 	/*
-		Encapsula uma "PeÁa" do jogo,
+		Encapsula uma "Pe√ßa" do jogo,
 		representada por um identificador inteiro
 	*/
 	class Piece {
@@ -22,7 +22,7 @@ namespace tltf {
 
 		int getId () const;
 		/*
-			Retorna se duas PeÁas s„o iguais (mesmo ID)
+			Retorna se duas Pe√ßas s√£o iguais (mesmo ID)
 		*/
 		bool isEqual (const Piece& other) const;
 	};

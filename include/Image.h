@@ -1,7 +1,7 @@
 /*
     The Last: Too Fast
     ED - 2015/1
-    UFSCar - S„o Carlos
+    UFSCar - S√£o Carlos
 */
 #ifndef IMAGE_H
 #define IMAGE_H
@@ -12,8 +12,8 @@
 namespace tltf {
     /*
         Classe para encapsular uma ALLEGRO_BITMAP junto com
-        sua posiÁ„o na tela (_x, _y) e mÈtodos para verificar
-        se a imagem est· sobre o foco do mouse
+        sua posi√ß√£o na tela (_x, _y) e m√©todos para verificar
+        se a imagem est√° sobre o foco do mouse
     */
     class Image {
     private:
@@ -31,7 +31,7 @@ namespace tltf {
         int getX();
         int getY();
         /*
-            Setta _hasFocus para true caso a posiÁ„o @param (mouse_x, mouse_y)
+            Setta _hasFocus para true caso a posi√ß√£o @param (mouse_x, mouse_y)
             esteja em cima da imagem
         */
         void checkOver(int mouse_x, int mouse_y);

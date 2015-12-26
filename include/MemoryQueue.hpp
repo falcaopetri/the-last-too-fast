@@ -1,7 +1,7 @@
 /*
     The Last: Too Fast
     ED - 2015/1
-    UFSCar - São Carlos
+    UFSCar - SÃ£o Carlos
 */
 #ifndef MEMORY_QUEUE_H
 #define MEMORY_QUEUE_H
@@ -17,11 +17,11 @@ namespace tltf {
 	private:
     Queue<T> _queue;
     /*
-        Guarda o último elemento retirado da fila
+        Guarda o Ãºltimo elemento retirado da fila
     */
     T _previousElement;
     /*
-        Informa se _previousElement possui informação ou lixo
+        Informa se _previousElement possui informaÃ§Ã£o ou lixo
     */
     bool _hasPreviousElement;
 	public:
@@ -29,11 +29,11 @@ namespace tltf {
         ~MemoryQueue(); //metodo destruitor
 		bool push(T); //insere elemento no final da fila
 		void pop(); //remove primeiro elemento
-		T getCurrent(); //retorna o Elemento atual (1º elemento) da fila
-		T getPrevious(); //retorna o último elemento retirado da fila, ou algum lixo
+		T getCurrent(); //retorna o Elemento atual (1Âº elemento) da fila
+		T getPrevious(); //retorna o Ãºltimo elemento retirado da fila, ou algum lixo
                             // caso hasPreviousElement() seja falso
 		bool empty(); //retorna verdadeiro se Fila estiver vazio, falso caso contrario
-		bool hasPreviousElement(); //retorna se _previousElement possui informação ou lixo
+		bool hasPreviousElement(); //retorna se _previousElement possui informaÃ§Ã£o ou lixo
 	};
 }
 
