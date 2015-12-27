@@ -1,5 +1,11 @@
-# The Last: Too Fast
+<style>
+img { width: 150px; margin: 20px; }
+</style>
 
+# The Last: Too Fast
+![The Last: Too Fast](docs/T1-img2.png)
+![The Last: Too Fast](docs/T1-img5.png)
+![The Last: Too Fast](docs/T1-img7.png)
 ## Project
 
 - It was developed as a partial grade to the Data Structure class, Computer Science at UFSCar;
