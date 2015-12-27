@@ -49,7 +49,8 @@ Clone this repository with:
 ```shell
 $ git clone https://github.com/falcaopetri/the-last-too-fast.git
 
-$ cd the-last-too-fast```
+$ cd the-last-too-fast
+```
 
 
 And compile it with `make`:
